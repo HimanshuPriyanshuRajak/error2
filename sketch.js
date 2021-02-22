@@ -17,9 +17,9 @@ function setup() {
 	createCanvas(800, 700);
 	rectMode(CENTER);
 
-	box1 = new Box(100,300,10,50);
-	box2 = new Box(300,400,50,10);
-	box3 = new Box(300,300,10,50);
+	box1 = new Box(10,50);
+	box2 = new Box(50,10);
+	box3 = new Box(10,50);
 	
 
 	packageSprite=createSprite(width/2, 80, 10,10);
